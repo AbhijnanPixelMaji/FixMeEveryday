@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		/* App Files */
+		AA123401111111111111111A /* MoodBloomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111111B /* MoodBloomApp.swift */; };
+		AA123401111111111111111C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111111D /* ContentView.swift */; };
+		
+		/* Models */
+		AA123401111111111111111E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111111F /* Models.swift */; };
+		AA123401111111111111112G /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111112H /* AppState.swift */; };
+		AA123401111111111111112I /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111112J /* SubscriptionManager.swift */; };
+		
+		/* Views */
+		AA123401111111111111113K /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113L /* MainTabView.swift */; };
+		AA123401111111111111113M /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113N /* OnboardingView.swift */; };
+		AA123401111111111111113O /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113P /* TodayView.swift */; };
+		AA123401111111111111113Q /* MoodLoggerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113R /* MoodLoggerSheet.swift */; };
+		AA123401111111111111113S /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113T /* GardenView.swift */; };
+		AA123401111111111111113U /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113V /* PlantDetailView.swift */; };
+		AA123401111111111111113W /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113X /* AchievementsView.swift */; };
+		AA123401111111111111113Y /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111113Z /* JournalView.swift */; };
+		AA123401111111111111114A /* NewJournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114B /* NewJournalEntryView.swift */; };
+		AA123401111111111111114C /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114D /* InsightsView.swift */; };
+		AA123401111111111111114E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114F /* SettingsView.swift */; };
+		AA123401111111111111114G /* ProfileEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114H /* ProfileEditorView.swift */; };
+		AA123401111111111111114I /* PremiumSubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114J /* PremiumSubscriptionView.swift */; };
+		AA123401111111111111114K /* PlaceholderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111114L /* PlaceholderViews.swift */; };
+		
+		/* Utils */
+		AA123401111111111111115M /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA123401111111111111115N /* AchievementManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXGroup section */
+		AA123401111111111111116A /* MoodBloom */ = {
+			isa = PBXGroup;
+			children = (
+				AA123401111111111111111B /* MoodBloomApp.swift */,
+				AA123401111111111111111D /* ContentView.swift */,
+				AA123401111111111111116B /* Models */,
+				AA123401111111111111116C /* Views */,
+				AA123401111111111111116D /* Utils */,
+			);
+			path = MoodBloom;
+			sourceTree = "<group>";
+		};
+		AA123401111111111111116B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA123401111111111111111F /* Models.swift */,
+				AA123401111111111111112H /* AppState.swift */,
+				AA123401111111111111112J /* SubscriptionManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA123401111111111111116C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA123401111111111111113L /* MainTabView.swift */,
+				AA123401111111111111116E /* Onboarding */,
+				AA123401111111111111116F /* Today */,
+				AA123401111111111111116G /* Garden */,
+				AA123401111111111111116H /* Journal */,
+				AA123401111111111111116I /* Insights */,
+				AA123401111111111111116J /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA123401111111111111116D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA123401111111111111115N /* AchievementManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA123401111111111111117A /* MoodBloom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA123401111111111111118A /* Build configuration list for PBXNativeTarget "MoodBloom" */;
+			buildPhases = (
+				AA123401111111111111119A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodBloom;
+			productName = MoodBloom;
+			productReference = AA123401111111111111120A /* MoodBloom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA123401111111111111121A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA123401111111111111117A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA123401111111111111122A /* Build configuration list for PBXProject "MoodBloom" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA123401111111111111123A;
+			productRefGroup = AA123401111111111111124A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA123401111111111111117A /* MoodBloom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		AA123401111111111111125A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA123401111111111111126A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA123401111111111111127A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moodbloom.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA123401111111111111128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moodbloom.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+	};
+	rootObject = AA123401111111111111121A /* Project object */;
+}
